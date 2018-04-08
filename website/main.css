@@ -1,0 +1,122 @@
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  background-color: black;
+    margin: 0px;
+    text-align: center;
+    padding-left: 0px;
+    
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px;
+    padding-top:10px;
+    padding-bottom:5px;
+    
+ 
+}
+
+.nav li{
+    flex:1;
+    border-top: 1px solid white;
+
+   
+}
+
+.nav li:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    
+}
+
+.nav a:hover{
+    color: black;
+}
+
+
+.first{
+   
+    background-image: url(firstpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+.first h1{
+    padding-top: 70px;
+    padding-bottom: 200px;
+    padding-right: 550px;
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    color:black;  
+    
+    
+    
+}
+
+
+
+.first p{
+    color:white;
+    font-family: sans-serif;
+    bottom: 200px;
+}
+.nav{
+   border-bottom: 1px solid white;
+    
+}
+
+body{
+    margin:0px;
+}
+
+.welcome2{
+   
+    background-image: url(thirdpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1px;
+ 
+}
+.welcome2 h1{
+    padding-top: 70px;
+    padding-bottom: 200px;
+    padding-left: 500px;
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    color:black;  
+}
+    
+.welcome3{
+   
+    background-image: url(secondpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1px;
+    
+ 
+}
+.welcome3 h1{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 10px;
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    color:black;  
+    
+        
+    }
